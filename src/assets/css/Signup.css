@@ -1,0 +1,39 @@
+@media all and (min-width: 992px) {
+    #signupimage {
+        margin-top: 30%;
+        animation: move 2s linear backwards;
+    }
+    #signupimage:hover {
+        transform: scale(1.15,1.15);
+        transition: 2.5s ease-in-out;
+    }
+
+    #submitt{
+        background-color:"red"
+    }
+    #submitt:hover{
+        color: #4DC5DA;
+        background-color:"#4DC5DA"
+    }
+
+    @keyframes move {
+        0% {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+        50% {
+            opacity: 0.5;
+            transform: translateX(50%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+}
+
+@media all and (max-width:475px) {
+    #signupimage {
+        display: none;
+    }
+}
