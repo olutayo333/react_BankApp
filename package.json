@@ -1,6 +1,4 @@
 {
-  
-  "homepage": "https://olutayo333.github.io/react_BankApp",
   "name": "bankapp",
   
 
@@ -162,10 +160,6 @@
     
 
   "start": "react-scripts start",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-
-    
 
   "build": "react-scripts build",
   
